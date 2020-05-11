@@ -1,11 +1,11 @@
 Parameters:
   EnvironmentName:
-    Description: An Environment name that will prefix the resources
+    Description: An Environment name that will prefixed to resources
     Type: String
   VpcCIDR:
     Description: Please enter the IP range CIDR notation for this resource
     Type: String
-    Value: 10.0.0.0/16
+    Default: 10.0.0.0/16
 Resources:
   VPC:
     Type: AWS::EC2::VPC
