@@ -1,3 +1,6 @@
+Description: >
+    Learning CloudFormation Demo Project
+
 Parameters:
     EnvironmentName:
         Description: An Environment name that will prefixed to resources
